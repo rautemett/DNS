@@ -1,0 +1,70 @@
+@ 1800 IN SOA ns1.kurz.pw. zonemaster.kurz.pw. (
+            0000000000 ; Serial
+            4800       ; Refresh Time
+            3600       ; Retry Time
+            1209600    ; Expire Time
+            6000       ; Negative Caching Time
+            )
+
+
+@             3600  IN NS    ns1.kurz.pw.
+@             3600  IN NS    ns2.kurz.pw.
+@             3600  IN NS    ns3.kurz.pw.
+
+@             3600  IN MX    10 kurz.pw.
+
+@             3600  IN A     178.62.203.94
+*             3600  IN A     178.62.203.94
+@             3600  IN AAAA  2a03:b0c0:2:d0::ad:1
+*             3600  IN AAAA  2a03:b0c0:2:d0::ad:1
+
+mettball      3600  IN CNAME mettball.ps0ke.de.
+mumble        3600  IN CNAME mumble.0x4a42.net.
+
+irc           3600  IN CNAME mett.ircmett.de.
+chat          3600  IN CNAME mett.ircmett.de.
+
+; irc.firebird.io
+mett          3600  IN A     209.222.30.60
+ssl           3600  IN A     209.222.30.60
+mett          3600  IN AAAA  2001:19f0:7400:8007::1
+ssl           3600  IN AAAA  2001:19f0:7400:8007::1
+_irc._tcp     3600  IN SRV   10 0 6667 irc.firebird.io.
+_irc-ssl._tcp 3600  IN SRV   10 0 6697 irc.firebird.io.
+
+; irc.ps0ke.de
+mett          3600  IN A     95.143.172.115
+mett          3600  IN AAAA  2001:1a50:11::5f:8f:ac73:56
+_irc._tcp     3600  IN SRV   10 0 2342 irc.ps0ke.de.
+
+; irc.thw23.de
+mett          3600  IN A     95.129.55.109
+ssl           3600  IN A     95.129.55.109
+mett          3600  IN AAAA  2a03:2900:2:1::4
+ssl           3600  IN AAAA  2a03:2900:2:1::4
+_irc._tcp     3600  IN SRV   10 0 2342 irc.thw23.de.
+_irc-ssl._tcp 3600  IN SRV   10 0 4223 irc.thw23.de.
+
+; irc.0x4a42.net
+mett          3600  IN A     5.45.111.144
+ssl           3600  IN A     5.45.111.144
+mett          3600  IN AAAA  2a03:4000:6:2111::1
+ssl           3600  IN AAAA  2a03:4000:6:2111::1
+_irc._tcp     3600  IN SRV   10 0 6667 irc.0x4a42.net.
+_irc-ssl._tcp 3600  IN SRV   10 0 6697 irc.0x4a42.net.
+
+; irc.kurz.pw
+mett          3600  IN A     95.85.23.49
+ssl           3600  IN A     95.85.23.49
+mett          3600  IN AAAA  2a03:b0c0:0:1010::2d:2001
+ssl           3600  IN AAAA  2a03:b0c0:0:1010::2d:2001
+_irc._tcp     3600  IN SRV   10 0 6667 irc.kurz.pw.
+_irc-ssl._tcp 3600  IN SRV   10 0 6697 irc.kurz.pw.
+
+; irc.h4ndi.de
+mett          3600  IN A     134.0.26.25
+ssl           3600  IN A     134.0.26.25
+_irc._tcp     3600  IN SRV   10 0 6667 irc.h4ndi.de.
+_irc-ssl._tcp 3600  IN SRV   10 0 6697 irc.h4ndi.de.
+
+
