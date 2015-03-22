@@ -13,10 +13,10 @@
 
 @             3600  IN MX    10 kurz.pw.
 
-@             3600  IN A     192.30.252.153
-*             3600  IN A     192.30.252.153
-@             3600  IN A     192.30.252.154
-*             3600  IN A     192.30.252.154
+@             3600  IN A     62.210.203.23
+@             3600  IN AAAA  2001:bc8:3fde::1
+*             3600  IN A     62.210.203.23
+*             3600  IN AAAA  2001:bc8:3fde::1
 
 mettball      3600  IN CNAME mettball.ps0ke.de.
 mumble        3600  IN CNAME mumble.0x4a42.net.
