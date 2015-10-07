@@ -1,15 +1,5 @@
-@ 1800 IN SOA ns1.kurz.pw. zonemaster.kurz.pw. (
-            0000000000 ; Serial
-            4800       ; Refresh Time
-            3600       ; Retry Time
-            1209600    ; Expire Time
-            6000       ; Negative Caching Time
-            )
-
-
-@             3600  IN NS    ns1.kurz.pw.
-@             3600  IN NS    ns2.kurz.pw.
-@             3600  IN NS    ns3.kurz.pw.
+$INCLUDE db.soa
+$INCLUDE db.ns
 
 @             3600  IN MX    10 kurz.pw.
 
