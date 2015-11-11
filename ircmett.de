@@ -28,10 +28,10 @@ mett          3600  IN AAAA  2001:1a50:11::5f:8f:ac73:56
 _irc._tcp     3600  IN SRV   10 0 2342 irc.ps0ke.de.
 
 ; irc.thw23.de
-mett          3600  IN A     95.129.55.109
-ssl           3600  IN A     95.129.55.109
-mett          3600  IN AAAA  2a03:2900:2:1::4
-ssl           3600  IN AAAA  2a03:2900:2:1::4
+mett          3600  IN A     185.11.138.90
+ssl           3600  IN A     185.11.138.90
+mett          3600  IN AAAA  2a03:2900:7:106::2
+ssl           3600  IN AAAA  2a03:2900:7:106::2
 _irc._tcp     3600  IN SRV   10 0 2342 irc.thw23.de.
 _irc-ssl._tcp 3600  IN SRV   10 0 4223 irc.thw23.de.
 
