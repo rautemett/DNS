@@ -1,7 +1,7 @@
 $INCLUDE db.soa
 $INCLUDE db.ns
 
-@             3600  IN MX    10 kurz.pw.
+@             3600  IN MX    10 serenity.kurz.pw.
 
 @             3600  IN A     62.210.142.224
 @             3600  IN AAAA  2001:bc8:3fde:101::1
