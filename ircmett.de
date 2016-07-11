@@ -51,10 +51,4 @@ ssl           3600  IN AAAA  2a03:b0c0:0:1010::2d:2001
 _irc._tcp     3600  IN SRV   10 0 6667 irc.kurz.pw.
 _irc-ssl._tcp 3600  IN SRV   10 0 6697 irc.kurz.pw.
 
-; irc.h4ndi.de
-mett          3600  IN A     134.0.26.25
-ssl           3600  IN A     134.0.26.25
-_irc._tcp     3600  IN SRV   10 0 6667 irc.h4ndi.de.
-_irc-ssl._tcp 3600  IN SRV   10 0 6697 irc.h4ndi.de.
-
 
