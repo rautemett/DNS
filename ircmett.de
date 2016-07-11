@@ -36,10 +36,10 @@ _irc._tcp     3600  IN SRV   10 0 2342 irc.thw23.de.
 _irc-ssl._tcp 3600  IN SRV   10 0 4223 irc.thw23.de.
 
 ; irc.0x4a42.net
-mett          3600  IN A     5.45.111.144
-ssl           3600  IN A     5.45.111.144
-mett          3600  IN AAAA  2a03:4000:6:2111::1
-ssl           3600  IN AAAA  2a03:4000:6:2111::1
+mett          3600  IN A     195.154.184.78
+ssl           3600  IN A     195.154.184.78
+mett          3600  IN AAAA  2001:bc8:3f76:4200::1
+ssl           3600  IN AAAA  2001:bc8:3f76:4200::1
 _irc._tcp     3600  IN SRV   10 0 6667 irc.0x4a42.net.
 _irc-ssl._tcp 3600  IN SRV   10 0 6697 irc.0x4a42.net.
 
@@ -50,5 +50,4 @@ mett          3600  IN AAAA  2a03:b0c0:0:1010::2d:2001
 ssl           3600  IN AAAA  2a03:b0c0:0:1010::2d:2001
 _irc._tcp     3600  IN SRV   10 0 6667 irc.kurz.pw.
 _irc-ssl._tcp 3600  IN SRV   10 0 6697 irc.kurz.pw.
-
 
