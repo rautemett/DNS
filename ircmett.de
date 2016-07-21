@@ -3,10 +3,10 @@ $INCLUDE db.ns
 
 @             3600  IN MX    10 serenity.kurz.pw.
 
-@             3600  IN A     62.210.217.135
-@             3600  IN AAAA  2001:bc8:3fde:200::1
-*             3600  IN A     62.210.217.135
-*             3600  IN AAAA  2001:bc8:3fde:200::1
+@             3600  IN A     62.210.6.121
+@             3600  IN AAAA  2001:bc8:3fde:251::1
+*             3600  IN A     62.210.6.121
+*             3600  IN AAAA  2001:bc8:3fde:251::1
 
 mettball      3600  IN CNAME mettball.ps0ke.de.
 mumble        3600  IN CNAME mumble.0x4a42.net.
