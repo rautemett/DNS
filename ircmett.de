@@ -1,7 +1,16 @@
-$INCLUDE db.soa
-$INCLUDE db.ns
+@ 1800 IN SOA ns1.kurz.pw. zonemaster.kurz.pw. (
+            0000000004 ; Serial
+            4800       ; Refresh Time
+            3600       ; Retry Time
+            1209600    ; Expire Time
+            6000       ; Negative Caching Time
+            )
 
-@             3600  IN MX    10 serenity.kurz.pw.
+@             3600  IN NS    ns1.kurz.pw.
+@             3600  IN NS    ns2.kurz.pw.
+@             3600  IN NS    ns3.kurz.pw.
+
+@             3600  IN MX    10 mail.kurz.pw.
 
 @             3600  IN A     62.210.6.121
 @             3600  IN AAAA  2001:bc8:3fde:251::1
@@ -50,4 +59,3 @@ mett          3600  IN AAAA  2a03:b0c0:0:1010::2d:2001
 ssl           3600  IN AAAA  2a03:b0c0:0:1010::2d:2001
 _irc._tcp     3600  IN SRV   10 0 6667 irc.kurz.pw.
 _irc-ssl._tcp 3600  IN SRV   10 0 6697 irc.kurz.pw.
-
