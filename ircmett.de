@@ -12,11 +12,12 @@
 
 @             3600  IN MX    10 mail.kurz.pw.
 
-@             3600  IN A     62.210.6.121
-@             3600  IN AAAA  2001:bc8:3fde:251::1
-*             3600  IN A     62.210.6.121
-*             3600  IN AAAA  2001:bc8:3fde:251::1
+@             3600  IN A     212.201.68.155
+@             3600  IN AAAA  2a00:5ba0:8000:64:d250:99ff:fe5a:f9e2
+*             3600  IN A     212.201.68.155
+*             3600  IN AAAA  2a00:5ba0:8000:64:d250:99ff:fe5a:f9e2
 
+wiki          3600  IN CNAME ircmett.de.
 mettball      3600  IN CNAME mettball.ps0ke.de.
 mumble        3600  IN CNAME mumble.0x4a42.net.
 
