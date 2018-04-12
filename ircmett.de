@@ -33,9 +33,9 @@ chat          3600  IN CNAME mett.ircmett.de.
 ; _irc-ssl._tcp 3600  IN SRV   10 0 6697 irc.firebird.io.
 
 ; irc.ps0ke.de
-mett          3600  IN A     95.143.172.115
-mett          3600  IN AAAA  2001:1a50:11::5f:8f:ac73:56
-_irc._tcp     3600  IN SRV   10 0 2342 irc.ps0ke.de.
+;mett          3600  IN A     95.143.172.115
+;mett          3600  IN AAAA  2001:1a50:11::5f:8f:ac73:56
+;_irc._tcp     3600  IN SRV   10 0 2342 irc.ps0ke.de.
 
 ; irc.thw23.de
 mett          3600  IN A     185.11.138.90
