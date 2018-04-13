@@ -13,29 +13,14 @@
 @             3600  IN MX    10 mail.kurz.pw.
 
 @             3600  IN A     212.201.68.155
-@             3600  IN AAAA  2a00:5ba0:8000:64:d250:99ff:fe5a:f9e2
+@             3600  IN AAAA  2a00:5ba0:8000:f004::100
 *             3600  IN A     212.201.68.155
-*             3600  IN AAAA  2a00:5ba0:8000:64:d250:99ff:fe5a:f9e2
+*             3600  IN AAAA  2a00:5ba0:8000:f004::100
 
 wiki          3600  IN CNAME ircmett.de.
-;mettball      3600  IN CNAME mettball.ps0ke.de.
-;mumble        3600  IN CNAME mumble.0x4a42.net.
 
 irc           3600  IN CNAME mett.ircmett.de.
 chat          3600  IN CNAME mett.ircmett.de.
-
-; irc.firebird.io
-; mett          3600  IN A     209.222.30.60
-; ssl           3600  IN A     209.222.30.60
-; mett          3600  IN AAAA  2001:19f0:7400:8007::1
-; ssl           3600  IN AAAA  2001:19f0:7400:8007::1
-; _irc._tcp     3600  IN SRV   10 0 6667 irc.firebird.io.
-; _irc-ssl._tcp 3600  IN SRV   10 0 6697 irc.firebird.io.
-
-; irc.ps0ke.de
-;mett          3600  IN A     95.143.172.115
-;mett          3600  IN AAAA  2001:1a50:11::5f:8f:ac73:56
-;_irc._tcp     3600  IN SRV   10 0 2342 irc.ps0ke.de.
 
 ; irc.thw23.de
 mett          3600  IN A     185.11.138.90
