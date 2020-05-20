@@ -17,6 +17,8 @@
 *             3600  IN A     212.201.68.155
 *             3600  IN AAAA  2a00:5ba0:8000:f004::100
 
+mumble          60  IN CNAME mumble.0x4a42.net.
+
 wiki          3600  IN CNAME ircmett.de.
 
 irc           3600  IN CNAME mett.ircmett.de.
