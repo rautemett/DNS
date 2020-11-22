@@ -1,10 +1,4 @@
-@ 1800 IN SOA ns1.kurz.pw. zonemaster.kurz.pw. (
-            0000000004 ; Serial
-            4800       ; Refresh Time
-            3600       ; Retry Time
-            1209600    ; Expire Time
-            6000       ; Negative Caching Time
-            )
+@             1800 SOA ns1.kurz.pw. zonemaster.kurz.pw. 1337 4800 1800 1209600 6000
 
 @             3600  IN NS    ns1.kurz.pw.
 @             3600  IN NS    ns2.kurz.pw.
