@@ -35,9 +35,9 @@ _irc._tcp     3600  IN SRV   10 0 6667 irc.0x4a42.net.
 _irc-ssl._tcp 3600  IN SRV   10 0 6697 irc.0x4a42.net.
 
 ; irc.kurz.pw
-mett          3600  IN A     212.201.68.155
-ssl           3600  IN A     212.201.68.155
-mett          3600  IN AAAA  2a00:5ba0:8000:f004::125
-ssl           3600  IN AAAA  2a00:5ba0:8000:f004::125
+mett          3600  IN A     89.163.159.91
+ssl           3600  IN A     89.163.159.91
+mett          3600  IN AAAA  2001:4ba0:dead:b054:89:163:159:91
+ssl           3600  IN AAAA  2001:4ba0:dead:b054:89:163:159:91
 _irc._tcp     3600  IN SRV   10 0 6667 irc.kurz.pw.
 _irc-ssl._tcp 3600  IN SRV   10 0 6697 irc.kurz.pw.
