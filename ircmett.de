@@ -18,14 +18,6 @@ wiki          3600  IN CNAME ircmett.de.
 irc           3600  IN CNAME mett.ircmett.de.
 chat          3600  IN CNAME mett.ircmett.de.
 
-; irc.thw23.de
-mett          3600  IN A     185.11.138.90
-ssl           3600  IN A     185.11.138.90
-mett          3600  IN AAAA  2a03:2900:7:106::2
-ssl           3600  IN AAAA  2a03:2900:7:106::2
-_irc._tcp     3600  IN SRV   10 0 2342 irc.thw23.de.
-_irc-ssl._tcp 3600  IN SRV   10 0 4223 irc.thw23.de.
-
 ; irc.0x4a42.net
 mett          3600  IN A     62.4.22.28
 ssl           3600  IN A     62.4.22.28
