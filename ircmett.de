@@ -1,8 +1,8 @@
-@             1800 SOA ns1.kurz.pw. zonemaster.kurz.pw. 1337 4800 1800 1209600 6000
+@             1800 SOA ns1.as62269.net. zonemaster.kurz.pw. 1337 4800 1800 1209600 6000
 
-@             3600  IN NS    ns1.kurz.pw.
-@             3600  IN NS    ns2.kurz.pw.
-@             3600  IN NS    ns3.kurz.pw.
+@             3600  IN NS    ns1.as62269.net.
+@             3600  IN NS    ns2.as62269.net.
+@             3600  IN NS    ns3.as62269.net.
 
 @             3600  IN MX    10 mail.kurz.pw.
 
