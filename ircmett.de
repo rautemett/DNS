@@ -4,7 +4,7 @@
 @             3600  IN NS    ns2.as62269.net.
 @             3600  IN NS    ns3.as62269.net.
 
-@             3600  IN MX    10 mail.kurz.pw.
+@             3600  IN MX    10 mail.as62269.net.
 
 @             3600  IN A     193.56.133.13
 @             3600  IN AAAA  2a11:5b00::13
